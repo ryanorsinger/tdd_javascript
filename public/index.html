@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title></title>
+    <style>
+
+        /* Zebra striped rows*/
+        thead tr {
+          background-color: #999;
+          color: #fff;
+        }
+        tbody tr:nth-of-type(odd) {
+          background-color: #fff;
+        }
+        tbody tr:nth-of-type(even) {
+          background-color: #ccc;
+        }
+
+    </style>
+    <link rel="shortcut icon" type="image/png" href="/jasmine/lib/jasmine-2.3.4/jasmine_favicon.png">
+    <link rel="stylesheet" href="/jasmine/lib/jasmine-2.3.4/jasmine.css">
+
+    <script src="/jasmine/lib/jasmine-2.3.4/jasmine.js"></script>
+    <script src="/jasmine/lib/jasmine-2.3.4/jasmine-html.js"></script>
+    <script src="/jasmine/lib/jasmine-2.3.4/boot.js"></script>
+
+
+    <!-- include source files here... -->
+    <script src="/jasmine/src/Player.js"></script>
+    <script src="/jasmine/src/Song.js"></script>
+
+    <!-- include spec files here... -->
+    <script src="/jasmine/spec/SpecHelper.js"></script>
+    <script src="/jasmine/spec/PlayerSpec.js"></script>
+
+</head>
+<body>
+    <table>
+        <caption>table title and/or explanatory text</caption>
+        <thead>
+            <tr>
+                <th>header 1</th>
+                <th>header 2</th>
+                <th>header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>data 1</td>
+                <td>data 2</td>
+                <td>data 3</td>
+            </tr>
+            <tr>
+                <td>data 1</td>
+                <td>data 2</td>
+                <td>data 3</td>
+            </tr>
+            <tr>
+                <td>data 1</td>
+                <td>data 2</td>
+                <td>data 3</td>
+            </tr>
+            <tr>
+                <td>data 1</td>
+                <td>data 2</td>
+                <td>data 3</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
